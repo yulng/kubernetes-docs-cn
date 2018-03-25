@@ -411,17 +411,17 @@ to schedule onto `node1`:
 
 ```yaml
 tolerations: 
-- key: "key"
-  operator: "Equal"
-  value: "value"
-  effect: "NoSchedule"
+- key: ke
+  operator: Equal
+  value: value
+  effect: NoSchedule
 ```
 
 ```yaml
 tolerations: 
-- key: "key"
-  operator: "Exists"
-  effect: "NoSchedule"
+- key: key
+  operator: Exists
+  effect: NoSchedule
 ```
 
 <!--
